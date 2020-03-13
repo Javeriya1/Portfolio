@@ -1,0 +1,58 @@
+
+        img {
+            border-radius: 50%;
+            float: left;
+        }
+
+        .Heading {
+            color: black;
+            font-family: Calibri;
+            font-size: 22px;
+
+        }
+
+        .Heading1 {
+            color: red;
+            font-family: Calibri;
+            font-size: 22px;
+            text-align: left;
+        }
+
+        .Paragraph {
+            font-family: Calibri;
+            font-size: 17px;
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            height: 40px;
+
+            text-align: center;
+        }
+
+        table1,
+        td,
+        th {
+            font-family: Calibri;
+            font-size: 17px;
+            text-align: left;
+        }
+
+        ul li {
+
+            font-family: Calibri;
+            font-size: 17px;
+            text-align: left;
+        }
+
+        body {
+            background-image: url("1.jpg");
+        }
