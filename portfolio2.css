@@ -1,26 +1,23 @@
 
         img {
             border-radius: 50%;
-            float: left;
-            border-color:red;
-            border-style:dotted;
-            margin: 10px;
+           
 
         }
 
         .Heading {
-            color: black;
+            color: honeydew;
             font-family: Calibri;
             font-size: 22px;
+            text-align:center;
 
         }
 
         .Heading1 {
-            color: red;
+            color:black;
             font-family: Calibri;
             font-size: 22px;
             text-align: left;
-            margin: 10px;
             text-decoration: underline;
 
         }
@@ -28,13 +25,19 @@
         .Paragraph {
             font-family: Calibri;
             font-size: 17px;
-            text-align: left;
-            margin: 10px;
+            
+
+        }
+        .l1
+        {
+            color:blue;
+            font-size:15px;
+            text-decoration: underline;
+            margin-left:3px;
         }
 
         table {
             border-collapse: collapse;
-            margin: 10px;
 
         }
 
@@ -44,7 +47,6 @@
             border: 1px solid black;
             height: 40px;
             text-align: center;
-            margin: 10px;
         }
 
         table1,
@@ -53,7 +55,6 @@
             font-family: Calibri;
             font-size: 17px;
             text-align: left;
-            margin: 10px;
         }
 
         ul li {
@@ -64,21 +65,45 @@
         }
 
         body {
-            background-image: url("1.jpg");
-            border-style:double;
-            border-color:red;
+            margin: 10px;
+            padding:10px;
+            height: 50%;
+            width:50%;
+        
         }
 
         .Box-model
         {
-           background-color:yellow;
-           border-color:red;
-           border-style:dotted;
-           border-width:2px;
            font-family: Calibri;
            font-size: 20px;
            padding:10px;
-           margin: 10px;
 
         }
+
+        .sidenav {
+            height:100%;
+            width: 200px;
+            position:fixed;
+            z-index: 1;
+            top:0;
+            left:0;
+            background-color:grey;
+            overflow-x: hidden;
+            padding-top:10%;
+            
+    
+
+        
+          }
+         
+          .main {
+            margin-left: 200px; 
+            padding-top:50px;
+            text-align:center;
+          }
+          body{
+              text-align:center;
+          }
+          
+          
         
