@@ -1,109 +1,24 @@
+.main
+{
+    padding-top:60px;
 
-        img {
-            border-radius: 50%;
-           
+}
+body{
+    padding:10px;
+    font-family:Arial;
+}
+.Name
+{
+    color:grey;
+}
+.mail
+{
+    color:blue;
+    text-decoration:underline;
+}
+#Edu
+{
+    padding-top:60px;
+} 
 
-        }
 
-        .Heading {
-            color: honeydew;
-            font-family: Calibri;
-            font-size: 22px;
-            text-align:center;
-
-        }
-
-        .Heading1 {
-            color:black;
-            font-family: Calibri;
-            font-size: 22px;
-            text-align: left;
-            text-decoration: underline;
-
-        }
-
-        .Paragraph {
-            font-family: Calibri;
-            font-size: 17px;
-            
-
-        }
-        .l1
-        {
-            color:blue;
-            font-size:15px;
-            text-decoration: underline;
-            margin-left:3px;
-        }
-
-        table {
-            border-collapse: collapse;
-
-        }
-
-        table,
-        td,
-        th {
-            border: 1px solid black;
-            height: 40px;
-            text-align: center;
-        }
-
-        table1,
-        td,
-        th {
-            font-family: Calibri;
-            font-size: 17px;
-            text-align: left;
-        }
-
-        ul li {
-
-            font-family: Calibri;
-            font-size: 17px;
-            text-align: left;
-        }
-
-        body {
-            margin: 10px;
-            padding:10px;
-            height: 50%;
-            width:50%;
-        
-        }
-
-        .Box-model
-        {
-           font-family: Calibri;
-           font-size: 20px;
-           padding:10px;
-
-        }
-
-        .sidenav {
-            height:100%;
-            width: 200px;
-            position:fixed;
-            z-index: 1;
-            top:0;
-            left:0;
-            background-color:grey;
-            overflow-x: hidden;
-            padding-top:10%;
-            
-    
-
-        
-          }
-         
-          .main {
-            margin-left: 200px; 
-            padding-top:50px;
-            text-align:center;
-          }
-          body{
-              text-align:center;
-          }
-          
-          
-        

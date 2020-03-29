@@ -3,15 +3,13 @@
 
 <head>
     <title>Portfolio using css</title>
-    <link rel="stylesheet" type="text/css" href="portfolio2.css">
+    <link rel="stylesheet" href="portfolio2.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
-    
-    
- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,138 +17,196 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">About </a>
+                <li class="nav-item active ">
+                    <a class="nav-link" href="#">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#Skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
+                    <a class="nav-link" href="#Education">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#Projects">Projects</a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link" href="Forms.html">Contact</a>
+                </li>
             </ul>
         </div>
-        </nav>
-      
+    </nav>
+    <div class="main">
+        <img src="Javeriya.jpg" class="rounded-circle float-left" style="width:170px;height:170px;" alt="javeriya">
+        <div class="container">
+            <div class="row">
 
-       
-        <div class="main">
-        <p class="Heading1">Career Objective:</p>
-        <p class="Paragraph"></p>To work in learning and challenging environment, utilizing my skills
-                            and knowledge to be the best of my abilities and contribute positively to my personal growth
-                             as well as growth of the organization.</p>
-        <p class="Heading1">Educational Qualification:</p>
-        <table class="table table-bordered">
-            <tr>
-                <th>Course</th>
-                <th>Institution</th>
-                <th>University</th>
-                <th>Year of passing</th>
-                <th>Marks</th>
-            </tr>
-            <tr>
-                <td>B.E(ISE)</td>
-                <td>RNS Institute of Technology</td>
-                <td>Visvesvaraya Technological University</td>
-                <td>2018</td>
-                <td>61.22%</td>
-            </tr>
-            <tr>
-                <td>Diploma(CSE)</td>
-                <td>P.V.P Polytechnic</td>
-                <td>Department of Technical Education</td>
-                <td>2015</td>
-                <td>67.41%</td>
-            </tr>
-            <tr>
-                <td>S.S.L.C</td>
-                <td>Gnanabodhini high school</td>
+                <div class="col-lg-5">
 
-                <td>Karnataka Secondary Education</td>
-                <td>2012</td>
-                <td>79.52%</td>
-            </tr>
+                    <h2>Full stack web developer</h2>
+
+                    <h5>
+                        <p class="Name">JAVERIYA</p>
+                    </h5>
+                    <p class="mail">javeriyaaman056@gmail.com</p>
+                    <a href="https://www.instagram.com/javeriyajabbu/?hl=en">
+                        <img alt="Instagram" src="download.jpg" style="width:30px;height:30px;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/javeriya-a-143545139">
+                        <img alt="LinkedIn" src="download (1).jpg" style="width:30px;height:30px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="card">
+        <div class="card bg-secondary text-white">
+            <div class="card-header">
+                <h5>Career Objective:</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <p>To work in learning and challenging environment, utilizing my skills
+            and knowledge to be the best of my abilities and contribute positively to my personal growth
+            as well as growth of the organization.</p>
+    </div>
+    <div id="Education">
+        <div class="card">
+            <div class="card bg-secondary text-white">
+                <div class="card-header">
+                    <h5>Educational Qualification:</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+
+                        <p>
+                            <tr>
+                                <th>Course</th>
+                                <th>Institution</th>
+                                <th>University</th>
+                                <th>Year of passing</th>
+                                <th>Marks</th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.E(ISE)</td>
+                            <td>RNS Institute of Technology</td>
+                            <td>Visvesvaraya Technological University</td>
+                            <td>2018</td>
+                            <td>61.22%</td>
+                        </tr>
+                        <tr>
+                            <td>Diploma(CSE)</td>
+                            <td>P.V.P Polytechnic</td>
+                            <td>Department of Technical Education</td>
+                            <td>2015</td>
+                            <td>67.41%</td>
+                        </tr>
+                        <tr>
+                            <td>S.S.L.C</td>
+                            <td>Gnanabodhini high school</td>
+                            <td>Karnataka Secondary Education</td>
+                            <td>2012</td>
+                            <td>79.52%</td>
+                        </tr>
+                        </Education>
+                        </p>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="Projects">
+            <div class="card">
+                <div class="card bg-secondary text-white">
+                    <div class="card-header">
+                        <h5>Projects Undertaken:</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <p>
+                    <dl class="row">
+                        <dt class="col-lg-2">Project Title</dt>
+                        <dd class="col-lg-9">Home Security System Using Smartphone’s based On Sensors</dd>
+                        <dt class="col-lg-2">Platform Used</dt>
+                        <dd class="col-lg-9">Embedded C and Android</dd>
+                        <dt class="col-lg-2">Contribution</dt>
+                        <dd class="col-lg-9">Planning and Developing</dd>
+                        <dt class="col-lg-2">Description(B.E Project)</dt>
+                        <dd class="col-lg-9">
+                            <p>The main objective of this project is providing the security for home with
+                                the help of sensors and sends the notification to owner as well as the neighbours.</p>
+                        </dd>
+                    </dl>
+                    <dl class="row">
+                        <dt class="col-lg-2">Project Title</dt>
+                        <dd class="col-lg-9">Bluetooth Enabled Mobile Phone Remote Control for PC</dd>
+                        <dt class="col-lg-2">Platform Used</dt>
+                        <dd class="col-lg-9">Java, Android</dd>
+                        <dt class="col-lg-2">Contribution</dt>
+                        <dd class="col-lg-9">Planning and Developing</dd>
+                        <dt class="col-lg-2">Description(B.E Project)</dt>
+                        <dd class="col-lg-9">
+                            <p>It can be used to control the computer applications such as Multimedia players and
+                                facilities the user while giving presentation on slides.</p>
+                        </dd>
+                    </dl>
+                </p>
+            </div>
+        </div>
+        <div id="Skills">
+            <div class="card">
+                <div class="card bg-secondary text-white">
+                    <div class="card-header">
+                        <h5>Technical skills:</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <p>
+                    <ul>
+                        <li>C++</li>
+                        <li>JAVA</li>
+                        <li>SQL</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card bg-secondary text-white">
+                <div class="card-header">
+                    <h5>Extracurricular activities:</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <p>
+                <h6>Achievements:</h6>
+
+                <ul>
+                    <li>Participated in technical talks and got participation certificate from Siemens
+                        Company.</li>
+                    <li>Participated in Sports and Cultural Activities in School as well as in college and
+                        got many
+                        prizes and Medals.</li>
+                </ul>
             </p>
-        </table>
-        <p class="Heading1">Projects Undertaken:</p>
-        <p class="Paragraph">
-            <b>Project Title &nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Home Security System Using Smartphone’s based On
-                Sensors</b><br>
-            Platform Used&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Embedded C and Android<br>
-            Contribution&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Planning and Developing<br>
-            Description(B.E Project)&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;The main objective of this project is providing the
-            security for home with the help of sensors and sends the notification to owner as well as the neighbours.
-            <br><br>
-            <b>Project Title&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Bluetooth Enabled Mobile Phone Remote Control for PC</b><br>
-            Platform Used &nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Java, Android<br>
-            Contribution&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; Planning and Developing<br>
-            Description(Diploma Project)&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;It can be used to control the computer
-            applications
-            such as Multimedia players and facilities the user while giving presentation on slides.
-            <br>
-        </p>
-        <p class="Heading1">Technical skills:</p>
-        <p class="Paragraph">
-            <ul>
-                <li>C++</li>
-                <li>JAVA</li>
-                <li>SQL</li>
-            </ul>
-        </p>
-        <p class="Heading1">Extracurricular activities:</p>
-        <table1>
-            <tr>
-                <td><b>Position Of Responsibility:</b></td>
-                <td>Student leader at Katalyst</td>
-            </tr><br><br>
-            <tr>
-                <td><b>&nbsp;&nbsp;&nbsp;Achievements:</b></td>
-                <td>
-                    <ul>
-                        <li>Participated in technical talks and got participation certificate from Siemens Company.</li>
-                        <li>Participated in Sports and Cultural Activities in School as well as in college and got many
-                            prizes and Medals.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><b>&nbsp;&nbsp;&nbsp;Interests/ Hobbies:</b></td>
-                <td>
-                    <ul>
-                        <li>Willingness to learn</li>
-                        <li>Mehendi Designer</li>
-                        <li>Drawing</li>
-                    </ul>
-                </td>
-            </tr>
-        </table1>
-    </div>
-    <div class="sidenav">
-        <p class="Heading">JAVERIYA</p>
-        <p class="l1">javeriyaaman056@gmail.com</p>
-        <center>
-        <img src="0.jpg" alt="javeriya" style="width:150px">
-        <br>
-        <br>
-            <a href="https://www.instagram.com/javeriyajabbu/?hl=en">
-                <img alt="Instagram" src="download.jpg" width="20%" height="20%">
-            </a><br><br>
-            <a href="https://www.linkedin.com/in/javeriya-a-143545139">
-                <img alt="LinkedIn" src="download (1).jpg" width="20%" height="20%">
-            </a>
-        </center>
-    </div>
-    
-
-
+            <p>
+                <h6>Interests/ Hobbies:</h6>
+                <ul>
+                    <li>Willingness to learn</li>
+                    <li>Mehendi Designer</li>
+                    <li>Drawing</li>
+                </ul>
+            </p>
+        </div>
 </body>
-
-
-
-
 
 </html>
