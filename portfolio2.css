@@ -1,20 +1,74 @@
 .main
 {
+    padding-top:250px;
+    height:600px;
+    width:100%;
+    color:white;
+    background:url(mj.jpg);
+
+}
+
+table,th,tr,td
+{
+
+    border:2px solid black;
+    padding:25px;
+    text-align:center;
+    margin-left:70px;
+}
+
+#mj
+{
+text-align:center;
+}
+
+.m2
+{
+    padding-top:80px;
+    font-size: 18px;
+   
+   
+}
+
+.edu1
+{
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-top:50px;
+    
+}
+input[type=text]
+ {
+    width:25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    
+    
+}
+input[type=date]
+ {
+    width:25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+   
+    
+}
+.top
+{
+    margin-top:0px;
+    margin-bottom:0px;
     padding-top:60px;
-
 }
-body{
-    padding:10px;
-    font-family:Arial;
-}
-.Name
+.top1
 {
-    color:grey;
+    padding-bottom:50px;
 }
-.mail
+.fo
 {
-    color:blue;
-    text-decoration:underline;
+    border:1px solid black;
+    margin-left:250px;
+    margin-right:250px;
+    margin-bottom:50px;
+    padding:50px;
+    border-radius:10px;
 }
-
-

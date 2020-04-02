@@ -4,94 +4,112 @@
 <head>
     <title>Portfolio using css</title>
     <link rel="stylesheet" href="portfolio2.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info">
+        <a class="navbar-brand">Portfolio</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#coll">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="coll">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active ">
                     <a class="nav-link" href="#">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Skill">Skills</a>
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Education">Education</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Projects">Projects</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Forms.html">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="main">
-        <img src="Javeriya.jpg" class="rounded-circle float-left" style="width:170px;height:170px;" alt="javeriya">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-5">
-
-                    <h2>Full stack web developer</h2>
-
-                    <h5>
-                        <p class="Name">JAVERIYA</p>
-                    </h5>
+    <div class="main d-flex justify-content-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="bg-info">Full stack web developer</h1>
+                <div id="mj">
+                    <h3>JAVERIYA</h3>
                     <p class="mail">javeriyaaman056@gmail.com</p>
                     <a href="https://www.instagram.com/javeriyajabbu/?hl=en">
-                        <img alt="Instagram" src="download.jpg" style="width:30px;height:30px;">
+                        <img alt="Instagram" src="download.jpg" width="40px" height="40px">
                     </a>
                     <a href="https://www.linkedin.com/in/javeriya-a-143545139">
-                        <img alt="LinkedIn" src="download (1).jpg" style="width:30px;height:30px;">
+                        <img alt="LinkedIn" src="download (1).jpg" width="40px" height="40px">
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <hr>
-    <div class="card">
-        <div class="card bg-secondary text-white">
-            <div class="card-header">
-                <h5>Career Objective:</h5>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <p>To work in learning and challenging environment, utilizing my skills
-            and knowledge to be the best of my abilities and contribute positively to my personal growth
-            as well as growth of the organization.</p>
-    </div>
-    <div id="Education">
+
+    <div id="about" class="top">
         <div class="card">
-            <div class="card bg-secondary text-white">
+            <div class="card bg-info text-white">
                 <div class="card-header">
-                    <h5>Educational Qualification:</h5>
+                    <h3 id="mj">About Me</h3>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="table-responsive">
-                <table class="table table-bordered">
-                    <thead class="thead-light">
+        <div class="container edu1">
+            <div class="row">
+                <div class="col-md-3">
 
-                        <p>
-                            <tr>
-                                <th>Course</th>
-                                <th>Institution</th>
-                                <th>University</th>
-                                <th>Year of passing</th>
-                                <th>Marks</th>
-                            </tr>
+                    <img src="javeriya.jpg" class="rounded-circle" alt="javeriya" width="250px">
+
+                </div>
+                <div class="col-md-9">
+                    <p class="m2">To work in learning and challenging environment, utilizing my skills
+                        and knowledge to be the best of my abilities and contribute positively to my personal growth
+                        as well as growth of the organization.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="education" class="top">
+        <div class="card">
+            <div class="card bg-info text-white">
+                <div class="card-header">
+                    <h3 id="mj">Educational Qualification</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container edu1">
+            <div class="table-responsive">
+                <table>
+                    <thead class="bg-info">
+                        <tr>
+                            <th>Course</th>
+                            <th>Institution</th>
+                            <th>University</th>
+                            <th>Year of passing</th>
+                            <th>Marks</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -116,97 +134,166 @@
                             <td>79.52%</td>
                         </tr>
                         </Education>
-                        </p>
                     </tbody>
                 </table>
             </div>
         </div>
-        <div id="Projects">
-            <div class="card">
-                <div class="card bg-secondary text-white">
-                    <div class="card-header">
-                        <h5>Projects Undertaken:</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <p>
-                    <dl class="row">
-                        <dt class="col-lg-2">Project Title</dt>
-                        <dd class="col-lg-9">Home Security System Using Smartphone’s based On Sensors</dd>
-                        <dt class="col-lg-2">Platform Used</dt>
-                        <dd class="col-lg-9">Embedded C and Android</dd>
-                        <dt class="col-lg-2">Contribution</dt>
-                        <dd class="col-lg-9">Planning and Developing</dd>
-                        <dt class="col-lg-2">Description(B.E Project)</dt>
-                        <dd class="col-lg-9">
-                            <p>The main objective of this project is providing the security for home with
-                                the help of sensors and sends the notification to owner as well as the neighbours.</p>
-                        </dd>
-                    </dl>
-                    <dl class="row">
-                        <dt class="col-lg-2">Project Title</dt>
-                        <dd class="col-lg-9">Bluetooth Enabled Mobile Phone Remote Control for PC</dd>
-                        <dt class="col-lg-2">Platform Used</dt>
-                        <dd class="col-lg-9">Java, Android</dd>
-                        <dt class="col-lg-2">Contribution</dt>
-                        <dd class="col-lg-9">Planning and Developing</dd>
-                        <dt class="col-lg-2">Description(B.E Project)</dt>
-                        <dd class="col-lg-9">
-                            <p>It can be used to control the computer applications such as Multimedia players and
-                                facilities the user while giving presentation on slides.</p>
-                        </dd>
-                    </dl>
-                </p>
-            </div>
-        </div>
-        <div id="Skill">
-            <div class="card">
-                <div class="card bg-secondary text-white">
-                    <div class="card-header">
-                        <h5>Technical skills:</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <p>
-                    <ul>
-                        <li>C++</li>
-                        <li>JAVA</li>
-                        <li>SQL</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
+    </div>
 
+
+    <div id="projects" class="top">
         <div class="card">
-            <div class="card bg-secondary text-white">
+            <div class="card bg-info text-white">
                 <div class="card-header">
-                    <h5>Extracurricular activities:</h5>
+                    <h3 id="mj">Projects Undertaken</h3>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <p>
-                <h6>Achievements:</h6>
+        <div class="container edu1">
+            <dl class="row">
+                <dt class="col-lg-2">Project Title</dt>
+                <dt class="col-lg-1">:</dt>
+                <dd class="col-lg-9">Home Security System Using Smartphone’s based On Sensors</dd>
+                <dt class="col-lg-2">Platform Used</dt>
+                <dt class="col-lg-1">:</dt>
+                <dd class="col-lg-9">Embedded C and Android</dd>
+                <dt class="col-lg-2">Contribution</dt>
+                <dt class="col-lg-1">:</dt>
+                <dd class="col-lg-9">Planning and Developing</dd>
+                <dt class="col-lg-2">Description(B.E Project)</dt>
+                <dt class="col-lg-1">:</dt>
+                <dd class="col-lg-9">
+                    <p>The main objective of this project is providing the security for home with
+                        the help of sensors and sends the notification to owner as well as the neighbours.</p>
+                </dd>
+            </dl>
+            <dl class="row">
+                <dt class="col-lg-2">Project Title</dt>
+                <dt class="col-lg-1">:</dt>
+                <dd class="col-lg-9">Bluetooth Enabled Mobile Phone Remote Control for PC</dd>
+                <dt class="col-lg-2">Platform Used</dt>
+                <dt class="col-lg-1">:</dt>
+                <dd class="col-lg-9">Java, Android</dd>
+                <dt class="col-lg-2">Contribution</dt>
+                <dt class="col-lg-1">:</dt>
+                <dd class="col-lg-9">Planning and Developing</dd>
+                <dt class="col-lg-2">Description(B.E Project)</dt>
+                <dt class="col-lg-1">:</dt>
+                <dd class="col-lg-9">
+                    <p>It can be used to control the computer applications such as Multimedia players and
+                        facilities the user while giving presentation on slides.</p>
+                </dd>
+            </dl>
 
-                <ul>
-                    <li>Participated in technical talks and got participation certificate from Siemens
-                        Company.</li>
-                    <li>Participated in Sports and Cultural Activities in School as well as in college and
-                        got many
-                        prizes and Medals.</li>
-                </ul>
-            </p>
-            <p>
-                <h6>Interests/ Hobbies:</h6>
-                <ul>
-                    <li>Willingness to learn</li>
-                    <li>Mehendi Designer</li>
-                    <li>Drawing</li>
-                </ul>
-            </p>
         </div>
+    </div>
+
+    <div id="skills" class="top top1">
+        <div class="card">
+            <div class="card bg-info text-white">
+                <div class="card-header">
+                    <h3 id="mj">Technical skills</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container edu1">
+
+            <ul class>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>SQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card bg-info text-white">
+            <div class="card-header">
+                <h3 id="mj">Extracurricular activities</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container edu1">
+        <h5>Achievements:</h5>
+        <ul>
+            <li>Participated in technical talks and got participation certificate from Siemens
+                Company.</li>
+            <li>Participated in Sports and Cultural Activities in School as well as in college and
+                got many
+                prizes and Medals.</li>
+        </ul>
+
+        <h5>Interests/ Hobbies:</h5>
+        <ul>
+            <li>Willingness to learn</li>
+            <li>Mehendi Designer</li>
+            <li>Drawing</li>
+        </ul>
+
+    </div>
+
+
+    <div id="contact" class="top">
+        <div class="card">
+            <div class="card bg-info text-white">
+                <div class="card-header">
+                    <h3 id="mj">Contact Me</h3>
+                </div>
+            </div>
+        </div>
+
+        <center>
+            <div class="Container edu1">
+                <div class="row justify-content-center">
+                    <div class="col-lg col-md-6 col-sm-3">
+                        <form method="post" action="">
+                            <div class="form-group">
+                                <label for="Fname">Firstname</label>
+                                <input type="text" id="Fname" class="form-control bg-info" placeholder="your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="Lname">Lastname</label>
+                                <input type="text" id="Lname" class="form-control bg-info" placeholder="your last name"
+                                    required>
+                            </div>
+                            <div>
+                                <label for="sex">Sex</label>
+                            </div>
+
+                            <div class="form-check-inline">
+                                <label class="form-check-label" for="radio1">
+                                    <input type="radio" id="radio1" name="optradio" value="option1" checked>Male
+                                </label>
+                            </div>
+
+                            <div class="form-check-inline ">
+                                <label class="form-check-label" for="radio1">
+                                    <input type="radio" id="radio1" name="optradio" value="option1" checked>Female
+                                </label>
+                            </div><br><br>
+                            <div class="form-group ">
+                                <label for="Email">Email</label>
+                                <input type="text" id="Email" class="form-control bg-info" placeholder="your Email">
+                            </div>
+                            <div class="form-group ">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" class="form-control bg-info">
+                            </div>
+                            <button onclick="myFunction()">Submit</button>
+                            <script>
+                                function myFunction() {
+                                    alert("I will revert to you shortly");
+                                }
+                            </script>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
 </body>
 
 </html>
